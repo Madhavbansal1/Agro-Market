@@ -12,7 +12,8 @@ const upload = multer();
 
 const userRouter = require('./routes/userRouter');
 const productRouter = require('./routes/productRouter');
-const { validUser, validAdmin } = require('./utils/middleware');
+const { validUser, validAdmin } = require('./utils/middleware');  
+
 const complaintRouter = require("./routes/complainRouter");
 const adminRouter = require("./routes/adminRouter")
 const port = process.env.PORT || 9000;
